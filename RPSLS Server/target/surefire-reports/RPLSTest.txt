@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: RPLSTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.168 s <<< FAILURE! - in RPLSTest
+testP1Wins  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: P1 should have won ==> expected: <1> but was: <0>
+	at RPLSTest.testP1Wins(RPLSTest.java:41)
+
+testUpdateP1  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: p1 not updated correctly ==> expected: <rock> but was: <>
+	at RPLSTest.testUpdateP1(RPLSTest.java:25)
+
